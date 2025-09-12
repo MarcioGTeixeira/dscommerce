@@ -9,9 +9,9 @@ public class ProductDTO {
 
     private Long id;
     @Size(min = 3, max = 80, message = "nome precisa ter de 3 a 80 caracteres")
-    @NotBlank(message = "campo requerido")
+    @NotBlank(message = "campo requester")
     private String name;
-    @Size(min = 10,message = "descricao precisa ter no minimo 10 caracteres")
+    @Size(min = 10,message = "descriptor precise ter no minim 10 caracteres")
     @NotBlank(message = "campo requerido")
     private String description;
     @Positive(message = "o preco deve ser positivo")
